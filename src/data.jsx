@@ -57,7 +57,7 @@ export const PROJECTS = [
       'Secure checkout flow',
       'Admin can add and edit products',
     ],
-     liveUrl: 'https://example.com',
+        liveUrl: 'https://example.com',
         githubUrl: 'https://github.com/yourname/ecommerce',
   },
   {
@@ -89,8 +89,8 @@ export const PROJECTS = [
       'Working contact form',
       'Fast loading with no extra libraries',
     ],
-         liveUrl: 'https://example.com',
-         githubUrl: 'https://github.com/yourname/ecommerce',
+         liveUrl: 'https://my-portfolio-psi-eight-46.vercel.app/',
+         githubUrl: 'https://github.com/Deepika-i/My-Portfolio',
   },
   {
     id: 'wx',
