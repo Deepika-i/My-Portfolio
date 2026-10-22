@@ -1,0 +1,67 @@
+
+/* ===== Skills ===== */
+
+.skillwrap {
+  position: relative;
+  max-width: 760px;
+  margin: auto;
+  aspect-ratio: 2 / 1;
+}
+
+.sk {
+  position: absolute;
+  display: grid;
+  justify-items: center;
+  gap: 4px;
+  font-size: 12px;
+  transform: translate(-50%, -50%);
+  animation: bob 5s ease-in-out infinite;
+  animation-delay: var(--dl);
+}
+
+.sk i {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font: 600 15px Poppins;
+  font-style: normal;
+  background: radial-gradient(circle at 30% 30%, #3b1250, #14061f);
+  border: 1px solid var(--line);
+  box-shadow: 0 0 20px var(--g);
+  transition: 0.3s;
+}
+
+.sk:hover i {
+  transform: scale(1.25);
+  box-shadow: 0 0 36px var(--g);
+}
+
+/* Floating Animation */
+
+@keyframes bob {
+  50% {
+    translate: 0 -10px;
+  }
+}
+
+/* Skills Orbit / Dashed Circle */
+
+.skillwrap::before {
+  content: "";
+  position: absolute;
+  inset: 12% 2%;
+  border: 1px dashed rgba(255, 122, 156, 0.3);
+  border-radius: 50%;
+  animation: pulse 4s ease-in-out infinite;
+}
+
+/* Pulse Animation */
+
+@keyframes pulse {
+  50% {
+    opacity: 0.3;
+    transform: scale(1.03);
+  }
+}
