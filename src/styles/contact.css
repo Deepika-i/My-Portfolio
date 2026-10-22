@@ -82,3 +82,14 @@ footer {
   position: relative;
   z-index: 1;
 }
+
+.validation-error {
+  color: #ff7a9c;
+  font-size: 13px;
+  margin: -8px 0 12px;
+}
+
+.validation-error:empty {
+  display: none;
+}
+
