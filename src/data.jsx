@@ -80,7 +80,7 @@ export const PROJECTS = [
     id: 'port',
     title: 'Portfolio Website',
     desc: 'A personal portfolio with a clean responsive layout, smooth scroll animations and a contact section.',
-    tags: ['HTML', 'CSS', 'JavaScript'],
+    tags: ['React', 'CSS'],
     role: 'Front-end · Solo project',
     long: 'A personal portfolio with a clean responsive layout, smooth scroll animations and a contact section.',
     features: [
