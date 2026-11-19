@@ -11,17 +11,16 @@ function Bar({ children }) {
 }
 
 function Shot({ id }) {
-  if (id === 'ecom') return (
-    <div className="shot">
-      <Bar><span className="cart">3</span></Bar>
-      <div className="body prod">
-        <div className="tile" />
-        <div className="tile" style={dl('.5s')} />
-        <div className="tile" style={dl('1s')} />
-        <small>$49</small><small>$79</small><small>$35</small>
-      </div>
+  // HomeEase actual screenshot
+  if (id === 'homeease') return (
+    <div className="shot homeease-shot">
+      <img
+        src="/images/homeease-preview.png"
+        alt="HomeEase Mobile App Preview"
+      />
     </div>
   )
+
 
   if (id === 'dash') return (
     <div className="shot">

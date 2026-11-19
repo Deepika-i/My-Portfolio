@@ -44,22 +44,28 @@ export const EDGES = [
 ]
 
 export const PROJECTS = [
-  {
-    id: 'ecom',
-    title: 'E-Commerce Website',
-    desc: 'A modern e-commerce platform with smooth UI/UX, cart and secure checkout.',
-    tags: ['React', 'Node.js', 'MongoDB'],
-    role: 'Full Stack · Solo project',
-    long: 'An online store where visitors browse products, filter by category, add items to a cart and check out securely. It has a React front end, a Node.js API and MongoDB for products and orders.',
-    features: [
-      'Product list with search and filters',
-      'Cart with live total',
-      'Secure checkout flow',
-      'Admin can add and edit products',
-    ],
-        liveUrl: 'https://example.com',
-        githubUrl: 'https://github.com/yourname/ecommerce',
-  },
+
+{
+  id: 'homeease',
+  title: 'HomeEase – Mobile App',
+  desc: 'HomeEase is a home services booking app designed for Tamil Nadu.',
+  tags: ['React Native','Firebase'],
+  role: 'Full Stack · Solo project',
+  long: 'HomeEase is a home services booking application designed for Tamil Nadu. Customers can explore services, submit booking requests, manage bookings and communicate with the admin. The admin can manage bookings, provide quotations, update booking statuses and manage customer requests.',
+  features: [
+    'Browse home services including cleaning, plumbing, electrical and AC services',
+    'Customer registration and login with Firebase Authentication',
+    'Location-based booking with address selection',
+    'Admin dashboard for booking management',
+    'Quotation generation and customer approval',
+    'Booking status notifications',
+    'Customer reviews and ratings',
+    'Quotation PDF download',
+  ],
+  liveUrl: 'https://homeease-rho.vercel.app/',
+  githubUrl:'https://github.com/Deepika-i/HomeEase',
+},
+
   {
     id: 'dash',
     title: 'Admin Dashboard',
